@@ -7,27 +7,6 @@ function Education() {
       <div className="about__container">
         <div className="about__info">
           <h1 className="about__title title ">
-            Liceum nr 141 in Kharkiv, Ukraine{" "}
-          </h1>
-          <div className="about__desc">
-            <p className="desc mx-auto">
-              I am a proud graduate of Liceum nr 141 in Kharkiv, Ukraine , where
-              I had the privilege of immersing myself in a rich educational
-              environment.{" "}
-            </p>
-          </div>
-        </div>
-        <div className="about__info">
-          <h1 className="about__title title ">School nr 4 in Lodz, Poland</h1>
-          <div className="about__desc">
-            <p className="desc mx-auto">
-              I am a graduate of School nr 4 in Lodz, Poland, where I completed
-              my second education.
-            </p>
-          </div>
-        </div>
-        <div className="about__info">
-          <h1 className="about__title title ">
             Technical school of Electronicy nr 1 in Warsaw, Poland
           </h1>
           <div className="about__desc">
