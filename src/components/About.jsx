@@ -2,21 +2,21 @@ import React from "react";
 
 function About() {
   return (
-    <section id="about" class="about bg-dark">
-      <div class="about__container">
-        <div class="about__image__div">
+    <section id="about" className="about bg-dark">
+      <div className="about__container">
+        <div className="about__image__div">
           <img
-            class="about__image"
+            className="about__image"
             src="https://novateus.com/blog/wp-content/uploads/2022/02/software-developer-gef18a0b18_1280.jpg"
             alt="Smiling Guy"
           />
         </div>
-        <div class="about__info">
-          <h1 class="about__title title ">
+        <div className="about__info">
+          <h1 className="about__title title ">
             About <span>Me</span>{" "}
           </h1>
-          <div class="about__desc">
-            <p class="desc mx-auto">
+          <div className="about__desc">
+            <p className="desc mx-auto">
               Hello there! I'm Anton, a frontend developer with a passion for
               creating delightful digital experiences. From a young age, I've
               been fascinated by the intersection of design and technology, and
@@ -24,7 +24,7 @@ function About() {
               development.
             </p>
 
-            <p class="desc mx-auto">
+            <p className="desc mx-auto">
               My journey in web development began 3 yeas ago when I discovered
               my love for translating creative concepts into functional,
               user-friendly websites and applications. Since then, I've honed my

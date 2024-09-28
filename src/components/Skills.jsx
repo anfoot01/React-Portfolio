@@ -2,69 +2,69 @@ import React from 'react'
 
 function Skills() {
   return (
-    <section id="skills" class="skills bg-dark">
-    <h1 class="skills__main-title">SKILLS</h1>
-    <div class="skills__container">
-        <div class="skills__info">
-            <h1 class="skills__title title ">Technical Skills </h1>
-            <div class="skills__desc">
+    <section id="skills" className="skills bg-dark">
+    <h1 className="skills__main-title">SKILLS</h1>
+    <div className="skills__container">
+        <div className="skills__info">
+            <h1 className="skills__title title ">Technical Skills </h1>
+            <div className="skills__desc">
                 
-                <div class="desc mx-auto"> 
-                    <span class="material-symbols-outlined">
+                <div className="desc mx-auto"> 
+                    <span className="material-symbols-outlined">
                         new_releases
                         </span>
                     <p>HTML5</p>
                 </div>
-                <div class="desc mx-auto"> 
-                    <span class="material-symbols-outlined">
+                <div className="desc mx-auto"> 
+                    <span className="material-symbols-outlined">
                         new_releases
                         </span>
                     <p>CSS3</p>
                 </div>
-                <div class="desc mx-auto"> 
-                    <span class="material-symbols-outlined">
+                <div className="desc mx-auto"> 
+                    <span className="material-symbols-outlined">
                         new_releases
                         </span>
                     <p>TailwindCSS</p>
                 </div>
-                <div class="desc mx-auto"> 
-                    <span class="material-symbols-outlined">
+                <div className="desc mx-auto"> 
+                    <span className="material-symbols-outlined">
                         new_releases
                         </span>
                     <p>Bootstrap</p>
                 </div>
-                <div class="desc mx-auto"> 
-                    <span class="material-symbols-outlined">
+                <div className="desc mx-auto"> 
+                    <span className="material-symbols-outlined">
                         new_releases
                         </span>
                     <p>React.js</p>
                 </div>
-                <div class="desc mx-auto"> 
-                    <span class="material-symbols-outlined">
+                <div className="desc mx-auto"> 
+                    <span className="material-symbols-outlined">
                         new_releases
                         </span>
                     <p>Angular.js</p>
                 </div>
-                <div class="desc mx-auto"> 
-                    <span class="material-symbols-outlined">
+                <div className="desc mx-auto"> 
+                    <span className="material-symbols-outlined">
                         new_releases
                         </span>
                     <p>GIT</p>
                 </div>
-                <div class="desc mx-auto"> 
-                    <span class="material-symbols-outlined">
+                <div className="desc mx-auto"> 
+                    <span className="material-symbols-outlined">
                         new_releases
                         </span>
                     <p>Postman</p>
                 </div>
-                <div class="desc mx-auto"> 
-                    <span class="material-symbols-outlined">
+                <div className="desc mx-auto"> 
+                    <span className="material-symbols-outlined">
                         new_releases
                         </span>
                     <p>Figma</p>
                 </div>
-                <div class="desc mx-auto"> 
-                    <span class="material-symbols-outlined">
+                <div className="desc mx-auto"> 
+                    <span className="material-symbols-outlined">
                         new_releases
                         </span>
                     <p>Photoshop</p>
