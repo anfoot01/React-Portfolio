@@ -1,0 +1,94 @@
+.header {
+	padding: 40rem 40rem 0 40rem;
+	&__container{
+		display: flex;
+		justify-content: space-between;
+		max-width: 1300px;
+		align-items: center;
+		margin-inline: auto;
+	}
+    &__logo{ 
+		font-size: 24rem;
+		color: var(--c-text-white);
+		cursor: pointer;
+	}
+	&__a{
+		font-size: 18rem;
+		color: var(--c-text-white);
+		@include tablet{
+			font-size: 24px;
+		}
+	}
+	&__backdrop {
+		background: rgba(0, 0, 0, 0.8);
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		z-index: 1;
+		transform: translateX(120%);
+		display: none;
+		transition: var(--transition);
+		opacity: 0;
+
+		@include tablet {
+			display: block;
+		}
+
+		&._active {
+			opacity: 1;
+			transform: translateX(0);
+		}
+	}
+
+	&__ul {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 20rem;
+		z-index: 9;
+     
+		@include tablet {
+			z-index: 9;
+			position: fixed;
+			width: 70%;
+			height: 100%;
+			flex-direction: column;
+			left: 0;
+			top: 0;
+			background: #45d2ca;
+			align-items: center;
+			transform: translateX(-120%);
+			transition: var(--transition);
+			gap: 40px;
+		}
+
+		&._active {
+			transform: translateX(0);
+		}
+
+		.icon-close {
+			position: absolute;
+			top: 40rem;
+			right: 40rem;
+			color: var(--c-text-white);
+		}
+	}
+
+	&__a {
+		@include tablet {
+			color: var(--c-text-white);
+		}
+	}
+}
+
+.icon-menu,
+.icon-close {
+	cursor: pointer;
+	display: none;
+    color: var(--c-text-white);
+	@include tablet {
+		display: inline-block;
+	}
+}

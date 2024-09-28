@@ -1,0 +1,35 @@
+html, body {
+	height: 100%;
+}
+html{
+	font-size: 1px;
+	@include tablet {
+		font-size: 0.8px;
+	}
+	@include tablet-small{
+		font-size: 0.7px;
+	}
+	@include mobile{
+		font-size: 0.7px;
+	}
+}
+body {
+	font-family: var(--ff);
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	
+	background:#151925;
+	
+}
+.container {
+	max-width: 1100px;
+	margin-inline: auto;
+	display: flex;
+	align-items: center;
+}
+.main {
+	padding: 20rem;
+}
+.bg-dark{
+	background:#323846;
+}
